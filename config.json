@@ -1,0 +1,16 @@
+{
+   "token":"ODczODc4MDY3NDU2NjQzMTM0.YQ-0Xw.xsp3HKTklkKWkwbB6Rh4JmpTRaw",
+   "YOUTUBE_API_KEY": "AIzaSyAYKTB4OT2UQP6favfKi3JEAK0i1FPhgjI",
+   "GOOGLE_KEY": "AIzaSyAYKTB4OT2UQP6favfKi3JEAK0i1FPhgjI",
+   "ENGINE_ID": "",
+   "CHANNEL_WELCOME": "843659584749174815",
+   "ROLES_WELCOME": [""],
+   "CHANNELID":"843454976935329804",
+   "default_prefix" : ">>",
+   "Owner": "864320286572544010",
+   "Invite": "https://discord.com/api/oauth2/authorize?client_id=873878067456643134&permissions=19376700224&scope=bot",
+   "Server": "https://discord.gg/EW9TukHUfB",
+   "CHANNELS_ID":{
+      "SUGGESTIONS":"5578875677"
+  }
+}
