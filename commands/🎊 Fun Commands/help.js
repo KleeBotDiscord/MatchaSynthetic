@@ -49,7 +49,7 @@ module.exports = {
           `\`Sử dụng ${default_prefix}help theo sau là tên lệnh để biết thêm thông tin về lệnh. Ví dụ: ${default_prefix}help < Tên lệnh con >\``
         )
         .setFooter(
-          `Bot made in VINH | yêu cầu bởi: ${message.author.tag}`,
+          `Matcha Synthetic | yêu cầu bởi: ${message.author.tag}`,
           message.author.displayAvatarURL({ dynamic: true })
         )
         .setTimestamp()
