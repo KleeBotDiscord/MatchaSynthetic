@@ -5,10 +5,9 @@ module.exports = (client) => {
      client.on("ready", async() => {
    setInterval(() => {
       stateswitch = !stateswitch; //thay đổi trạng thái
-         if (stateswitch) client.user.setActivity(`${default_prefix}help and ${default_prefix}play`, { type: "LISTENING" });
+         if (stateswitch) client.user.setActivity(`${config.default_prefix}help`, { type: "LISTENING" });
          else client.user.setActivity(`${client.guilds.cache.reduce((c, g) => c + g.memberCount, 0)} Thành viên | ${client.guilds.cache.size} Server `, { type: "PLAYING" });
-          
-   }, 2000); 
+   }, 4000); 
   client.user.setStatus('idle');
 });
 }
