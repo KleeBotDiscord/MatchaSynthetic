@@ -95,7 +95,7 @@ module.exports = {
             : "\`Không có mô tả cho lệnh này\`"
         )
         .setFooter(
-          `Bot made in Nguyễn Vinh | yêu cầu bởi ${message.author.tag}`,
+          `Matcha Synthetic | yêu cầu bởi ${message.author.tag}`,
           message.author.displayAvatarURL({ dynamic: true })
         )
         .setTimestamp()
