@@ -1,5 +1,5 @@
 console.clear()
-console.log("[INFO]: BOT MẪU GIÁ 350K...")
+console.log("[INFO]: Matcha Synthetic...")
 const { Client, Collection } = require('discord.js');
 const db = require('quick.db')
 Discord = require("discord.js");
