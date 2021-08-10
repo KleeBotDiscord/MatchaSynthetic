@@ -1,6 +1,7 @@
 const config = require("../config.json")
 
 module.exports = (client) => {
+         let stateswitch = false;
      client.on("ready", async() => {
    setInterval(() => {
       stateswitch = !stateswitch; //thay đổi trạng thái
