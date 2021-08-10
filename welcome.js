@@ -68,7 +68,7 @@ module.exports = function (client) {
       const welcomeembed = new Discord.MessageEmbed()
         .setColor("RANDOM")
         .setTimestamp()
-        .setFooter("Bot made in Nguyễn vinh | hôm nay lúc:", member.guild.iconURL({ dynamic: true }))
+        .setFooter("Matcha Synthetic | hôm nay lúc:", member.guild.iconURL({ dynamic: true }))
         .setDescription(`**chào mừng đã đến với server:  ${member.guild.name}!**
       Chào mừng bạn:  <@${member.id}>!, đã đến với server hãy tuân thủ các điều lệ mà chúng tôi đã đưa ra
    chúc bạn <@${member.id}> có những khảnh khắc thật là vui vẻ 🎊`)
