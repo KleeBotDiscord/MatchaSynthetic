@@ -19,8 +19,14 @@ module.exports = {
     const serverQueue = client.queue.get(message.guild.id);
     if (!serverQueue)
       return message.channel.send({embed : {
-        description : `❌ \`Không có bài nào được phát\``
-      }})    try {
+        description : `❌ \`Không có bài nào được phát\``,
+        color : color.error,
+        footer : {
+          text : footer.footertext,
+          icon_url : footer.footericon
+        }
+      }})
+    try {
       let currentPage = 0;
       const embeds = generateQueueEmbed(message, serverQueue.songs);
       const queueEmbed = await message.channel.send(
