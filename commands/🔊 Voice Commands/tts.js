@@ -2,7 +2,7 @@ const { getAudioUrl } = require('google-tts-api');
 
 module.exports = {
     name: 'tts',
-    aliases: ['t', 'talk'],
+    aliases: ['t', 'talk', 'speak'],
     category: 'fun',
     run: async(client, message, args) => {
         if (!args[0]) return message.channel.send('\`bạn vui lòng nhập chữ\`');
