@@ -18,3 +18,6 @@ Chạy file Startbot.bat nhập : "npm i" đợi lúc nó chạy xong thì ghi "
 ![image](https://user-images.githubusercontent.com/88064168/133618539-a8df6645-05dc-4dab-8caf-0a79bd267040.png)
 
 # ở đây mình chỉ hướng dẫn các bạn chạy bot này trên chính máy tính của các bạn, nên nếu bạn tắt máy tính thì bot cũng sẽ tắt theo. Còn muốn bot bật 24/7 không tắt thì các bạn chạy bot trên heruko nhé. Nếu cần mình hỗ trợ cài trên heruko thì ib facebook mình để mình chỉ cho. 
+# Hướng dẫn khái quát cách chạy trên Heroku
+Upload code lên Github ở chế độ private. truy cập heroku login - New - Create new app - deploy - github ( connect github) - choose file upload - deploy branch - menu chọn resouces - ở phần free dynos: tắt web, bật worder
+# Thế là xong
